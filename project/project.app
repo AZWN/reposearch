@@ -35,6 +35,6 @@ imports elib/elib-utils/string
     }
   }
   
-  function capitalize(name : String) : String {
-    return if( name.length() > 0 ) name.substring( 0,1 ).toUpperCase() + name.substring( 1, name.length() ) else name;
-  }
+  // function capitalize(name : String) : String {
+  //   return if( name.length() > 0 ) name.substring( 0,1 ).toUpperCase() + name.substring( 1, name.length() ) else name;
+  // }
